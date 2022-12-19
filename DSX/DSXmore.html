@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Project DSX | More</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+
+<div id="navbar">
+    <a href="DSXindex.html">DSX Homepage</a>
+    <a href="DSXabout.html">About</a>
+    <a href="DSXupdates.html">Updates</a>
+    <a class="active">Learn more</a>
+    <a href="../index.html">Dev Homepage</a>
+</div>
+<script>
+    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+</script>
+
+<body>
+    <h1 class="h1">More</h1>
+    
+    <p class="s1"><i>As the lead (only) developer of Project DSX, I find it immensely important that it be successful. In the end, when I reveal Project DSX to the world for the first time, it doesn't matter if it's the best Discord bot to ever grace the surface of the Earth if it doesn't have any actual users. Which is where you come in. Let me be very clear: I am NOT asking you to start hyping the bot up, because we all know how bad it is when something is over-hyped and then it flops on release. However, I do appreciate any assistance you can provide to me throughout the development process, because we all know that I can't do this on my own.</i></p>
+    <p class="p1">If you can help in any way, please do check out my website, and feel free to send me a DM over Discord (my usernames <i>should</i> be in there somewhere) and I'll do my best to get back to you when I can.</p>
+    <p class="p1">Also, if you want to sign up in advance to become a beta tester, again, feel free to contact me, and if there's room I'll let you know.</p>
+    <p class="p1">Any fellow developers are welcome to volunteer to help me convert my test algorithm into a functional and (mostly) bug-free bot. So, if you know Python and are willing to help, I'd love to work with you.</p>
+</body>
