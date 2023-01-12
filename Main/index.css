@@ -20,7 +20,7 @@ body {
 }
 .sidebar a {
     padding: 8px 8px 8px 32px;
-    font-family: 'Segoe UI light';
+    font-family: 'Helvetica';
     text-decoration: none;
     font-size: 25px;
     color: black;
@@ -31,7 +31,7 @@ body {
     display: block;
     cursor: pointer;
     justify-content: center;
-    font-family: 'Segoe UI Light';
+    font-family: 'Helvetica';
     color: black;
 }
 .sidebar a.menubutton:hover {
@@ -39,7 +39,7 @@ body {
 }
 .sidebar a.active {
     padding: 8px 8px 8px 32px;
-    font-family: 'Segoe UI light';
+    font-family: 'Helvetica';
     text-decoration: none;
     font-size: 25px;
     color: red;
@@ -57,7 +57,7 @@ body {
     display: block;
     cursor: pointer;
     justify-content: center;
-    font-family: 'Segoe UI Light';
+    font-family: 'Helvetica';
     color: fuchsia;
     background-color:blueviolet;
 }
@@ -67,7 +67,7 @@ body {
 }
 .openbtn {
     font-size: 20px;
-    font-family: 'Segoe UI light';
+    font-family: 'Helvetica';
     cursor: pointer;
     background-color:darkgrey;
     color: white;
@@ -87,7 +87,10 @@ body {
 }
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+    .sidebar a {font-size: 50px;}
+    .sidebar a.active {font-size: 50px;}
+    .sidebar .closebtn {scale: 200%;}
+    .sidebar {width: 40%;}
 }
 .h1 {
     color:beige;
@@ -97,19 +100,19 @@ body {
 }
 .s1 {
     color:beige;
-    font-family:'Segoe UI light';
+    font-family:'Helvetica';
     text-align:center;
     font-size: 40px
 }
 .p1 {
     color:beige;
-    font-family:'Segoe UI light';
+    font-family:'Helvetica';
     text-align:center;
     font-size: 30px
 }
 .p2 {
     color:beige;
-    font-family:'Segoe UI light';
+    font-family:'Helvetica';
     text-align:left;
     font-size: 30px
 }
