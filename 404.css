@@ -1,0 +1,112 @@
+html {
+    background-color: black;
+    animation-name: alarmbg;
+    animation-play-state: running;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 20s;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+@keyframes alarmbg {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: red;
+    }
+}
+
+.h1 {
+    font-family: 'Comic Sans MS';
+    font-size: 50px;
+    color: darkgrey;
+    text-shadow: 0 0 3px red, 0 0 10px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.p1l {
+    font-family: 'Papyrus';
+    font-size: 40px;
+    color: darkgrey;
+    text-shadow: 0 0 10px red, 0 0 30px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.p1r {
+    font-family: 'Papyrus';
+    font-size: 40px;
+    color: darkgrey;
+    text-align: right;
+    text-shadow: 0 0 10px red, 0 0 30px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.p1c {
+    font-family: 'Papyrus';
+    font-size: 40px;
+    color: darkgrey;
+    text-align: center;
+    text-shadow: 0 0 10px red, 0 0 30px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.warning1 {
+    color: red;
+    font-size: 60px;
+}
+
+.warning2 {
+    color: red;
+    font-size: 60px;
+    animation-name: warningfade;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0ms;
+    animation-timing-function: step-end;
+    animation-fill-mode: forwards;
+    animation-duration: 10s;
+}
+
+.warning3 {
+    color: red;
+    font-size: 60px;
+    animation-name: warningfade;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0ms;
+    animation-timing-function: step-end;
+    animation-fill-mode: forwards;
+    animation-duration: 20s;
+}
+
+@keyframes warningfade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+div#a {
+    width: 50px;
+    height:50px;
+    background-image: url("Media/void2.jpg");
+    position:absolute;
+    animation-name: warningfade;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0ms;
+    animation-timing-function: step-end;
+    animation-fill-mode: forwards;
+    animation-duration: 20s;
+}
