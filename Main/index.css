@@ -59,7 +59,7 @@ body {
     justify-content: center;
     font-family: 'Helvetica';
     color: fuchsia;
-    background-color:blueviolet;
+    background-color: blueviolet;
 }
 .sidebar a.DSXmenubutton:hover {
     color: blueviolet;
@@ -69,16 +69,16 @@ body {
     font-size: 20px;
     font-family: 'Helvetica';
     cursor: pointer;
-    background-color:darkgrey;
+    background-color: darkgrey;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
-    border-color:transparent;
+    border-color: transparent;
     
 }
   
 .openbtn:hover {
-    background-color:grey;
+    background-color: grey;
 }
 
 #main {
@@ -93,26 +93,103 @@ body {
     .sidebar {width: 40%;}
 }
 .h1 {
-    color:beige;
-    font-family:'Segoe UI';
-    text-align:center;
+    color: beige;
+    font-family: 'Segoe UI';
+    text-align: center;
     font-size: 50px;
 }
 .s1 {
-    color:beige;
-    font-family:'Helvetica';
-    text-align:center;
+    color: beige;
+    font-family: 'Helvetica';
+    text-align: center;
     font-size: 40px
 }
 .p1 {
-    color:beige;
-    font-family:'Helvetica';
-    text-align:center;
+    color: beige;
+    font-family: 'Helvetica';
+    text-align: center;
     font-size: 30px
 }
 .p2 {
+    color: beige;
+    font-family: 'Helvetica';
+    text-align: left;
+    font-size: 30px
+}
+
+.sectionleft {
+    margin: left;
+    margin-top:50px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(114, 114, 114);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    max-width: 50%;
+}
+
+.sectionleft p {
     color:beige;
     font-family:'Helvetica';
-    text-align:left;
-    font-size: 30px
+    font-size: 30px;
+}
+
+.sectionleft h1 {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 40px;
+}
+
+.sectionright {
+    margin: right;
+    float:right;
+    margin-top:50px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(114, 114, 114);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    max-width: 50%;
+}
+
+.sectionright p {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 30px;
+}
+
+.sectionright h1 {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 40px;
+}
+
+.sectionmiddle {
+    margin: auto;
+    padding: 10px;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-bottom: 50px;
+    width: 90%;
+    background-color: rgb(114, 114, 114);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.sectionmiddle p {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 30px;
+}
+
+.sectionmiddle h1 {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 40px;
 }
