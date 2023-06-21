@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.h1 {
+    font-family: 'Helvetica';
+    color:white;
+    font-size: 50px;
+}
+
+.s1 {
+    font-family: 'Helvetica';
+    color: white;
+    font-size: 40px;
+}
+
+.p1 {
+    font-family: 'Helvetica';
+    color: white;
+    font-size: 25px;
+}
