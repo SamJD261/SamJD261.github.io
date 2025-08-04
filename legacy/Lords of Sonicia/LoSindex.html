@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Lords of Sonicia | Home</title>
+        <link rel="stylesheet" href="LoS.css">
+    </head>
+
+    <div id="navbar">
+        <a class="active">Home</a>
+        <a href="discography.html">Discography</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About Us</a>
+        <a href="gig.html">Gigs and Tour Dates</a>
+        <a href="merch.html">Merch</a>
+    </div>
+    <script>
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+    <body>
+        
+        <div class="sectionleft">
+            <h2>Overview</h2>
+            <p>Lords of Sonicia (which is often abbreviated to LoS) is a rock band based in Western Australia. It the culmination of years of attempts by Samuel Matthews at creating a band. 
+                LoS is comprised of many members, each with their own unique musical influences, preferences, and styles, and are currently in the process of writing songs for their self-titled debut album, <i>Lords of Sonicia</i>. 
+                LoS has a sound like no other modern-day band, blending the catchy, gentle guitar lines of The Smashing Pumpkins, the simple, often noisy, but beautiful melodies of Foo Fighters, and the indie charm of 
+                Ricky Jamaraz, with the raucous, careless noise walls of Nirvana- at least according to Samuel.
+            </p>
+        </div>
+        
+        <div class="sectionright">
+            <h2>Releases</h2>
+            <p>As mentioned in the overview (above), Lords of Sonicia hasn't released anything just yet. However, progress on a self-titled debut album is well and truly underway, with close to 3 songs having already been 
+                written for an EP that LoS plans on releasing ahead of their debut album. So far, close to 4 songs have been written, all of which by Samuel Matthews.
+            </p>
+        </div>
+
+        <div class="sectionleft">
+            <h2>News</h2>
+            <p>We're a new band, there's really nothing to put here. However, there will be as soon as we have something to tell you all, so make sure to keep yourself up to date ;)</p>
+        </div>
+
+        <div class="sectionright">
+            <h2>Merch</h2>
+            <p>Ha! Yeah, we really have nothing for this, probably won't for a long while, if at all.</p>
+        </div>
+
+    </body>

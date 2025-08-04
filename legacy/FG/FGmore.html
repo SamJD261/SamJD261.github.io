@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <title>More FlightGear-Related Info | SamJD261</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<div id="navbar">
+    <a href="FGindex.html">Home</a>
+    <a href="F-22.html">F-22 Raptor Project</a>
+    <a href="F-18.html">F/A-18 Hornet Project</a>
+    <a class="active">Learn more</a>
+    <a href="../index.html">Dev Homepage</a>
+</div>
+<script>
+    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+</script>
+
+<body>

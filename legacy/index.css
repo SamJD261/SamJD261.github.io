@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(51, 51, 51);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image:linear-gradient(rgb(51, 51, 51), beige);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    font-family: 'Helvetica';
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a.menubutton {
+    display: block;
+    cursor: pointer;
+    justify-content: center;
+    font-family: 'Helvetica';
+    color: black;
+}
+.sidebar a.menubutton:hover {
+    color: wheat;
+}
+.sidebar a.active {
+    padding: 8px 8px 8px 32px;
+    font-family: 'Helvetica';
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidebar a.DSXmenubutton {
+    display: block;
+    cursor: pointer;
+    justify-content: center;
+    font-family: 'Helvetica';
+    color: fuchsia;
+    background-color: blueviolet;
+}
+.sidebar a.DSXmenubutton:hover {
+    color: blueviolet;
+    background-color: fuchsia;
+}
+.openbtn {
+    font-size: 20px;
+    font-family: 'Helvetica';
+    cursor: pointer;
+    background-color: darkgrey;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-color: transparent;
+    
+}
+  
+.openbtn:hover {
+    background-color: grey;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 50px;}
+    .sidebar a.active {font-size: 50px;}
+    .sidebar .closebtn {scale: 200%;}
+    .sidebar {width: 40%;}
+}
+.h1 {
+    color: beige;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 50px;
+}
+.s1 {
+    color: beige;
+    font-family: 'Helvetica';
+    text-align: center;
+    font-size: 40px
+}
+.p1 {
+    color: beige;
+    font-family: 'Helvetica';
+    text-align: center;
+    font-size: 30px
+}
+.p2 {
+    color: beige;
+    font-family: 'Helvetica';
+    text-align: left;
+    font-size: 30px
+}
+
+.sectionleft {
+    margin: left;
+    margin-top:50px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(114, 114, 114);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    max-width: 50%;
+}
+
+.sectionleft p {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 30px;
+}
+
+.sectionleft h1 {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 40px;
+}
+
+.sectionright {
+    margin: right;
+    float:right;
+    margin-top:50px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(114, 114, 114);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    max-width: 50%;
+}
+
+.sectionright p {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 30px;
+}
+
+.sectionright h1 {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 40px;
+}
+
+.sectionmiddle {
+    margin: auto;
+    padding: 10px;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-bottom: 50px;
+    width: 90%;
+    background-color: rgb(114, 114, 114);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.sectionmiddle p {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 30px;
+}
+
+.sectionmiddle h1 {
+    color:beige;
+    font-family:'Helvetica';
+    font-size: 40px;
+}

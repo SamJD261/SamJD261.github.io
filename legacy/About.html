@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SamJD261 | About</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="menubutton" href="../index.html">Homepage</a>
+        <a class="active">About me</a>
+        <a class="menubutton" href="Programming.html">Programming</a>
+        <a class="menubutton" href="Projects.html">Current projects</a>
+        <a class="menubutton" href="Contact.html">Contact me</a>
+        <a class="menubutton" href="../DSX/DSXindex.html">Project DSX</a>
+        <a class="menubutton" href="../FG/FGindex.html">FlightGear</a>
+        <a class="menubutton" href="../Devblogs/devblog.html">Devblogs</a>
+    </div>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+    
+    <body>
+        <h1 class="h1">About</h1>
+
+        <p class="p1">
+            I have been writing code since either 2020 or 2021 (there was a pandemic, give me a break). Either way, a classmate of mine convinced me to pick up Python, and I did. 
+            And I don't regret a thing, Python's great! Some time later, I decided to try C#. I didn't understand it at first, but a few months later I started trying it again and seemed to understand the basics okay. 
+            I don't exactly remember how long I've been doing HTML/CSS for, but I must admit I find the language very easy to understand. I believe that anyone can become a developer, and you don't need to be a 
+            low-level programming genius to have some fun creating a program. Because I'm certainly no programming expert; in fact I'm still very much an amateur. Once I started developing in C# 
+            (which I admittedly don't do much of), I immediately realised how simple these programs made it to pull a prank on friends (and teachers). 
+            It didn't take much to create a C# app that opened an unlimited number of tabs at once, playing Rick Astley's "Never Gonna Give You Up", or some other random website. 
+            It certainly didn't take much to make a semi-convincing "educational" webpage that was actually also just a rickroll.
+        </p>
+    </body>
+</html>
