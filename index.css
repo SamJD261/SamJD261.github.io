@@ -1,0 +1,116 @@
+#norm {
+    background-image:url('media/gt cbr/2.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+/* NAVBAR */
+
+#nav {
+    background-color:rgb(255, 255, 255, 0.75);
+    position: relative; /* Make it stick/fixed */
+    display: inline-block;
+}
+#nav a {
+    float:left;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    padding: 15px;
+    font-family: 'Sitka Text';
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav a:hover {
+    background-color:rgb(210, 210, 210, 0.75);
+    color: rgb(75, 75, 75);
+}
+#nav a.active {
+    background-color:rgb(75, 75, 75);
+    color: silver;
+}
+
+
+/* MAIN DIV */
+
+#main {
+    margin-top: 1%;
+    padding: 1%;
+    position:relative;
+    background-color:rgb(255, 255, 255, 0.75);
+    left: 0;
+    right: 0;
+}
+
+
+/* DISCOG STUFF */
+
+#discog {
+    position:relative; /* Make it stick/fixed */
+    display:inline-block;
+}
+#discog div {
+    display:inline-table;
+    color: black;
+    padding: 15px;
+    font-family: 'Sitka Text';
+    text-decoration: none;
+}
+
+#discog img {
+    width: 200px;
+}
+
+
+/* TEXT */
+
+.h1 {
+    font-family: 'Sitka Text';
+    font-size: 50px;
+    color:rgb(255,255,255,0.9);
+
+}
+.h2 {
+    font-family: 'Sitka Text';
+    font-size: 40px;
+}
+.p1 {
+    font-family: 'Sitka Text';
+    font-size: 30px;
+}
+.p2 {
+    font-family: 'Sitka Text';
+    font-size: 18px;
+}
+
+.p3 {
+    font-family: 'Sitka Text';
+    font-size: 15px;
+}
+
+
+/* GALLERY STUFF */
+
+#glry {
+    background-image:url('media/gallery bg.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+#gallery {
+    margin-top: 1%;
+    background-color:rgb(255, 255, 255, 0.1);
+    background-blend-mode:multiply;
+    display:inline-block;
+}
+
+#gallery img {
+    max-width:99%;
+    float:left;
+    justify-content:left;
+    text-align: center;
+    padding: 0.5%;
+}
+
+#gallery a {
+    padding-left:0.5%;
+}
